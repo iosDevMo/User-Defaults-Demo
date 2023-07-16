@@ -69,14 +69,14 @@
                                 </segments>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kHD-BO-4rU">
-                                <rect key="frame" x="196" y="344" width="131" height="31"/>
+                                <rect key="frame" x="211" y="344" width="101" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
+                                    <segment title="Dark"/>
+                                    <segment title="Light"/>
                                 </segments>
                                 <connections>
-                                    <action selector="modeSelect:" destination="BYZ-38-t0r" eventType="valueChanged" id="Yth-CK-mzQ"/>
+                                    <action selector="modeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="PaT-Dh-qt9"/>
                                 </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16K-2F-el3">
